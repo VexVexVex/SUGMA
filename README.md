@@ -1,7 +1,7 @@
 # SUGMA Stack
 
 - Svelte
-- Unix
+- Ubuntu
 - GraphQL
 - MySQL
 - ASP.NET
