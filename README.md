@@ -1,7 +1,7 @@
 # SUGMA
 
-Svelte
-Unix
-GraphQL
-MySQL
-ASP.NET
+- Svelte
+- Unix
+- GraphQL
+- MySQL
+- ASP.NET
