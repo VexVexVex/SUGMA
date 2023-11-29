@@ -1,4 +1,4 @@
-# SUGMA
+# SUGMA Stack
 
 - Svelte
 - Unix
