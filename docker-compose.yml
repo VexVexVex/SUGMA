@@ -1,0 +1,15 @@
+services:
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: sugr00t
+      MYSQL_DATABASE: sugma
+      MYSQL_USER: sugma
+      MYSQL_PASSWORD: sugmapass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
