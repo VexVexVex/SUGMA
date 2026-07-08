@@ -28,6 +28,11 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.UseCors();
+
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 app.MapGraphQL();
+app.MapFallbackToFile("index.html");
 
 app.Run();
